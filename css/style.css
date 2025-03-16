@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #0a0a0a;  /* Deep black */
+    color: #00ffff; /* Neon cyan */
+    font-family: 'Orbitron', sans-serif;  /* Futuristic font */
+    text-align: center;
+    padding: 50px;
+}
+
+h1 {
+    font-size: 3rem;
+    text-transform: uppercase;
+    text-shadow: 0 0 15px #00ffff, 0 0 30px #00ffff;
+}
+
+p {
+    font-size: 1.2rem;
+    opacity: 0.8;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background: linear-gradient(45deg, #00ffff, #0044ff);
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+button:hover {
+    box-shadow: 0 0 15px #00ffff;
+    transform: scale(1.05);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    border-bottom: 2px solid cyan;
+}
+
+h1 {
+    font-size: 2rem;
+    color: cyan;
+    text-shadow: 0 0 10px cyan;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: cyan;
+    font-size: 1.2rem;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: white;
+    text-shadow: 0 0 10px cyan;
+}
+footer {
+    margin-top: 50px;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.8);
+    text-align: center;
+    color: cyan;
+    border-top: 2px solid cyan;
+}
+button {
+    background: cyan;
+    color: black;
+    padding: 12px 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 0 10px cyan;
+}
+
+button:hover {
+    background: black;
+    color: cyan;
+    box-shadow: 0 0 20px cyan;
+}
+/* Mobile & Tablet Styles */
+@media (max-width: 768px) {
+    body {
+        padding: 10px;
+    }
+
+    header {
+        text-align: center;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    button {
+        width: 100%;
+    }
+}
+/* Chatbot Styles */
+.chatbot {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 250px;
+    background: rgba(0, 255, 255, 0.2);
+    border: 1px solid cyan;
+    border-radius: 10px;
+    padding: 10px;
+    color: cyan;
+    font-family: Arial, sans-serif;
+}
+
+.chat-header {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.chat-body {
+    max-height: 200px;
+    overflow-y: auto;
+    font-size: 14px;
+}
+
+#chatInput {
+    width: 100%;
+    padding: 5px;
+    margin-top: 5px;
+    border: none;
+    outline: none;
+    background: black;
+    color: cyan;
+}
+
+logo {
+    width: 100px; /* Adjust size */
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Centers the logo */
+    filter: drop-shadow(0px 0px 10px cyan); /* Neon glow effect */
+}
+.header-container {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Space between logo and title */
+    justify-content: center;
+}
+
+.logo {
+    width: 80px; /* Adjust logo size */
+}
+.contact {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px cyan;
+}
+
+.contact a {
+    color: cyan;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact a:hover {
+    text-shadow: 0px 0px 5px cyan;
+}
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px 0;
+    box-shadow: 0px 0px 10px cyan;
+    z-index: 1000;
+}
+body {
+    padding-top: 60px; /* Prevent content from hiding under navbar */
+}
+.services {
+    text-align: center;
+    padding: 50px 10px;
+    color: white;
+}
+
+.service-box {
+    background: rgba(0, 0, 0, 0.3);
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px cyan;
+}
+@media screen and (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+    .logo {
+        width: 60px;
+    }
+    .service-box {
+        padding: 15px;
+    }
+}
