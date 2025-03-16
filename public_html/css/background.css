@@ -1,0 +1,20 @@
+body {
+    background: black;
+    overflow: hidden;
+}
+
+@keyframes neonGlow {
+    0% { background: rgba(0, 255, 255, 0.1); }
+    50% { background: rgba(0, 255, 255, 0.3); }
+    100% { background: rgba(0, 255, 255, 0.1); }
+}
+
+.glow-effect {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    animation: neonGlow 5s infinite alternate;
+    z-index: -1;
+}
