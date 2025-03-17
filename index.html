@@ -68,7 +68,7 @@
         <button onclick="fetchData()">Explore</button>
 <p id="response"></p>
 
-<script>
+    <script>
     function fetchData() {
         fetch('https://llama3-api.onrender.com/generate/', {
             method: 'POST',
@@ -76,8 +76,18 @@
             body: JSON.stringify({ prompt: 'Tell me about CyberZilla' })
         })
         .then(response => response.json())
-        .then(data => document.getElementById('response').innerText = data.response)
-        .catch(error => console.error('Error:', error));
+        .then(data => {
+            console.log(data); // Debugging
+            if (data.response) {
+                document.getElementById('response').innerText = data.response;
+            } else {
+                alert("Error: No response from API");
+            }
+        })
+        .catch(error => {
+            console.error('Fetch error:', error);
+            alert("Failed to connect to the AI API");
+        });
     }
 </script>
     </div>
