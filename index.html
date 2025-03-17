@@ -47,21 +47,6 @@
 </head>
 <body>
      <script src="js/chatbot.js"></script>
-    <button onclick="fetchData()">Generate</button>
-<p id="response"></p>
-
-<script>
-    function fetchData() {
-        fetch('https://llama3-api.onrender.com/generate/', {
-            method: 'POST',
-            headers: { 'Content-Type': 'application/json' },
-            body: JSON.stringify({ prompt: 'Hello AI!' })
-        })
-        .then(response => response.json())
-        .then(data => document.getElementById('response').innerText = data.response)
-        .catch(error => console.error('Error:', error));
-    }
-</script>
     <header>
         <div class="header-container">
             <img src="assets\cyberzilla_logo.jpeg" alt="CyberZilla Logo" class="logo">
@@ -80,7 +65,21 @@
     <div class="container">
         <h3>Welcome to Cyberzilla</h3>
         <p>AI, Automation, and Web Development at its peak.</p>
-        <button onclick="alert('Welcome to the future!')">Explore</button>
+        <button onclick="fetchData()">Explore</button>
+<p id="response"></p>
+
+<script>
+    function fetchData() {
+        fetch('https://llama3-api.onrender.com/generate/', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ prompt: 'Tell me about CyberZilla' })
+        })
+        .then(response => response.json())
+        .then(data => document.getElementById('response').innerText = data.response)
+        .catch(error => console.error('Error:', error));
+    }
+</script>
     </div>
     <section class="services">
         <h2>Our Services</h2>
