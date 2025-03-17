@@ -84,6 +84,21 @@
         <p>&copy; 2025 Cyberzilla. All rights reserved.</p>
     </footer>
     <script src="js/chatbot.js"></script>
+    <button onclick="fetchData()">Generate</button>
+<p id="response"></p>
+
+<script>
+    function fetchData() {
+        fetch('https://llama3-api.onrender.com/generate/', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ prompt: 'Hello AI!' })
+        })
+        .then(response => response.json())
+        .then(data => document.getElementById('response').innerText = data.response)
+        .catch(error => console.error('Error:', error));
+    }
+</script>
 </body>
 <div class="glow-effect"></div>
 </html>
