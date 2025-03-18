@@ -1,6 +1,8 @@
 import os
+import streamlit as st
 from huggingface_hub import InferenceClient
-st.write("Secrets Loaded:", st.secrets) #Debugging
+
+st.write("Secrets Loaded:", st.secrets if "secrets" in dir(st) else "No secrets found") #Debugging
 
 # Streamlit UI title
 st.title("AI Chatbot with Cyberzilla AI")
