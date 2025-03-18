@@ -1,4 +1,4 @@
-import streamlit as st
+import os
 from huggingface_hub import InferenceClient
 st.write("Secrets Loaded:", st.secrets) #Debugging
 
@@ -7,7 +7,7 @@ st.title("AI Chatbot with Meta-Llama")
 st.title("Ssup!How can i assist you today?")
 
 # Hugging Face API Authentication
-HF_TOKEN = st.secrets["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"]
+HF_TOKEN = os.getenv["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"]
 client = InferenceClient(model="meta-llama/Meta-Llama-Guard-2-8B", token=HF_TOKEN)
 
 # User input field
