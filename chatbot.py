@@ -1,5 +1,6 @@
 import streamlit as st
 from huggingface_hub import InferenceClient
+st.write("Secrets Loaded:", st.secrets) #Debugging
 
 # Streamlit UI title
 st.title("AI Chatbot with Meta-Llama")
