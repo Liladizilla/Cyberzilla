@@ -3,9 +3,10 @@ from huggingface_hub import InferenceClient
 
 # Streamlit UI title
 st.title("AI Chatbot with Meta-Llama")
+st.title("Ssup!How can i assist you today?")
 
 # Hugging Face API Authentication
-HF_TOKEN = "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"
+HF_TOKEN = st.secrets["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"]
 client = InferenceClient(model="meta-llama/Meta-Llama-Guard-2-8B", token=HF_TOKEN)
 
 # User input field
