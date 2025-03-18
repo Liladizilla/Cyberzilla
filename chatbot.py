@@ -3,8 +3,8 @@ from huggingface_hub import InferenceClient
 st.write("Secrets Loaded:", st.secrets) #Debugging
 
 # Streamlit UI title
-st.title("AI Chatbot with Meta-Llama")
-st.title("Ssup!How can i assist you today?")
+st.title("AI Chatbot with Cyberzilla AI")
+st.title("Ssup!How may i assist you today?")
 
 # Hugging Face API Authentication
 HF_TOKEN = os.getenv["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"]
