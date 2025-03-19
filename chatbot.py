@@ -9,7 +9,7 @@ st.title("AI Chatbot with Cyberzilla AI")
 st.title("Ssup!How may i assist you today?")
 
 # Hugging Face API Authentication
-HF_TOKEN = os.genetev("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")
+HF_TOKEN = st.secrets["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"]
 client = InferenceClient(model="meta-llama/Meta-Llama-Guard-2-8B", token=HF_TOKEN)
 
 # User input field
