@@ -1,0 +1,52 @@
+{
+  "name": "CyberZilla - AI & Automation",
+  "short_name": "CyberZilla",
+  "description": "AI, Automation, and Web Development at its peak",
+  "start_url": "/index.html",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "portrait-primary",
+  "background_color": "#0a0a0a",
+  "theme_color": "#00ffff",
+  "lang": "en-US",
+  "dir": "ltr",
+  "categories": ["business", "productivity", "utilities"],
+  "icons": [
+    {
+      "src": "assets/cyberzilla_logo.jpeg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/cyberzilla_logo.jpeg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "assets/cyberzilla_logo.jpeg",
+      "sizes": "540x720",
+      "type": "image/jpeg"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Services",
+      "short_name": "Services",
+      "description": "View our services",
+      "url": "/services.html",
+      "icons": [{ "src": "assets/cyberzilla_logo.jpeg", "sizes": "192x192" }]
+    },
+    {
+      "name": "Contact",
+      "short_name": "Contact",
+      "description": "Contact us",
+      "url": "/contact.html",
+      "icons": [{ "src": "assets/cyberzilla_logo.jpeg", "sizes": "192x192" }]
+    }
+  ],
+  "prefer_related_applications": false
+}
