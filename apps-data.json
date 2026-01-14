@@ -1,0 +1,76 @@
+{
+  "apps": [
+    {
+      "id": "app-001",
+      "title": "Security Scanner",
+      "description": "Advanced security scanning tool for vulnerability detection and analysis",
+      "categories": ["Security", "Tools"],
+      "tags": ["scanning", "vulnerability", "protection", "analysis"],
+      "links": {
+        "googleDrive": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
+      },
+      "icon": "shield-alt",
+      "version": "1.0.0"
+    },
+    {
+      "id": "app-002",
+      "title": "Network Analyzer",
+      "description": "Comprehensive network analysis and monitoring application",
+      "categories": ["Networking", "Tools"],
+      "tags": ["network", "monitoring", "analysis", "diagnostics"],
+      "links": {
+        "googleDrive": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
+      },
+      "icon": "network-wired",
+      "version": "1.0.0"
+    },
+    {
+      "id": "app-003",
+      "title": "Encryption Suite",
+      "description": "Complete encryption and decryption toolkit for data protection",
+      "categories": ["Security", "Utilities"],
+      "tags": ["encryption", "decryption", "data-protection", "crypto"],
+      "links": {
+        "googleDrive": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
+      },
+      "icon": "lock",
+      "version": "2.1.0"
+    },
+    {
+      "id": "app-004",
+      "title": "System Monitor",
+      "description": "Real-time system performance monitoring and resource tracking",
+      "categories": ["System", "Tools"],
+      "tags": ["monitoring", "performance", "system", "resources"],
+      "links": {
+        "googleDrive": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
+      },
+      "icon": "tachometer-alt",
+      "version": "1.5.2"
+    },
+    {
+      "id": "app-005",
+      "title": "Password Manager",
+      "description": "Secure password storage and management application",
+      "categories": ["Security", "Utilities"],
+      "tags": ["password", "security", "credentials", "management"],
+      "links": {
+        "googleDrive": "https://drive.google.com/file/d/YOUR_FILE_ID_HERE/view?usp=sharing"
+      },
+      "icon": "key",
+      "version": "3.0.1"
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "lastUpdated": "2026-01-14T08:47:02Z",
+    "totalApps": 5,
+    "categories": [
+      "Security",
+      "Networking",
+      "System",
+      "Tools",
+      "Utilities"
+    ]
+  }
+}
