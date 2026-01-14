@@ -1,1 +1,97 @@
-[{"id":1,"title":"AI Chatbot Assistant","category":"ai","description":"Intelligent chatbot powered by advanced AI algorithms for customer support and automation. Features NLP capabilities and multi-language support.","tags":["AI","NLP","Python","LLM"],"thumbnail":"assets/placeholder-ai.svg","demoUrl":"#","driveUrl":"https://drive.google.com/drive/folders/1Rt3unrVFmgEvOJMvpqJqhAVqdWbD4rC7?usp=drive_link","githubUrl":"#","status":"active","technologies":["Python","TensorFlow","Flask"]},{"id":2,"title":"Task Automation Suite","category":"automation","description":"Automate repetitive tasks with our powerful automation tools built for productivity. Includes workflow automation and task scheduling.","tags":["Python","RPA","Workflow","Automation"],"thumbnail":"assets/placeholder-automation.svg","demoUrl":"#","driveUrl":"https://drive.google.com/drive/folders/1Rt3unrVFmgEvOJMvpqJqhAVqdWbD4rC7?usp=drive_link","githubUrl":"#","status":"active","technologies":["Python","Selenium","Schedule"]},{"id":3,"title":"Data Analytics Dashboard","category":"web","description":"Real-time data visualization and analytics dashboard for business intelligence. Interactive charts and comprehensive reporting features.","tags":["JavaScript","React","D3.js","Analytics"],"thumbnail":"assets/placeholder-dashboard.svg","demoUrl":"#","driveUrl":"https://drive.google.com/drive/folders/1Rt3unrVFmgEvOJMvpqJqhAVqdWbD4rC7?usp=drive_link","githubUrl":"#","status":"active","technologies":["React","D3.js","Node.js"]},{"id":4,"title":"Machine Learning Model","category":"ai","description":"Predictive ML model for pattern recognition and forecasting. Trained on comprehensive datasets for accurate predictions.","tags":["Python","TensorFlow","ML","Prediction"],"thumbnail":"assets/placeholder-ml.svg","demoUrl":"#","driveUrl":"https://drive.google.com/drive/folders/1Rt3unrVFmgEvOJMvpqJqhAVqdWbD4rC7?usp=drive_link","githubUrl":"#","status":"active","technologies":["Python","TensorFlow","Pandas"]},{"id":5,"title":"Web Scraping Tool","category":"automation","description":"Intelligent web scraping tool with data extraction and processing capabilities. Perfect for data collection and market research.","tags":["Python","BeautifulSoup","Scraping"],"thumbnail":"assets/placeholder-scraper.svg","demoUrl":"#","driveUrl":"https://drive.google.com/drive/folders/1Rt3unrVFmgEvOJMvpqJqhAVqdWbD4rC7?usp=drive_link","githubUrl":"#","status":"active","technologies":["Python","BeautifulSoup","Selenium"]},{"id":6,"title":"Cloud Management Platform","category":"web","description":"Comprehensive cloud management and monitoring platform. Monitor resources, manage deployments, and track performance metrics.","tags":["JavaScript","Node.js","Cloud","DevOps"],"thumbnail":"assets/placeholder-cloud.svg","demoUrl":"#","driveUrl":"https://drive.google.com/drive/folders/1Rt3unrVFmgEvOJMvpqJqhAVqdWbD4rC7?usp=drive_link","githubUrl":"#","status":"active","technologies":["Node.js","Express","AWS"]}]
+{
+  "apps": [
+    {
+      "id": 1,
+      "name": "Stream Gifts App",
+      "description": "A platform for seamless gift streaming and digital gifting experiences",
+      "category": "Social",
+      "status": "active",
+      "lastUpdated": "2026-01-14"
+    },
+    {
+      "id": 2,
+      "name": "Dream House Designer",
+      "description": "Interactive home design tool for visualizing and planning your dream living space",
+      "category": "Design",
+      "status": "active",
+      "lastUpdated": "2026-01-14"
+    },
+    {
+      "id": 3,
+      "name": "Money Mentor",
+      "description": "Personal finance management and budgeting assistant for financial wellness",
+      "category": "Finance",
+      "status": "active",
+      "lastUpdated": "2026-01-14"
+    },
+    {
+      "id": 4,
+      "name": "Life Fitness Tracker",
+      "description": "Comprehensive fitness tracking and wellness monitoring application",
+      "category": "Health & Wellness",
+      "status": "active",
+      "lastUpdated": "2026-01-14"
+    },
+    {
+      "id": 5,
+      "name": "Agreement Tracker",
+      "description": "Document management system for tracking and organizing agreements",
+      "category": "Productivity",
+      "status": "active",
+      "lastUpdated": "2026-01-14"
+    },
+    {
+      "id": 6,
+      "name": "Local AI Task Coordinator",
+      "description": "AI-powered task management and coordination system for local operations",
+      "category": "AI/Automation",
+      "status": "active",
+      "lastUpdated": "2026-01-14"
+    },
+    {
+      "id": 7,
+      "name": "TracerZero Forensic Engine",
+      "description": "Advanced forensic analysis and digital investigation platform",
+      "category": "Security/Forensics",
+      "status": "active",
+      "lastUpdated": "2026-01-14"
+    },
+    {
+      "id": 8,
+      "name": "Evidence Engine",
+      "description": "Comprehensive evidence management and chain of custody tracking system",
+      "category": "Security/Forensics",
+      "status": "active",
+      "lastUpdated": "2026-01-14"
+    },
+    {
+      "id": 9,
+      "name": "Scope Guardian",
+      "description": "Security monitoring and scope management for network protection",
+      "category": "Security",
+      "status": "active",
+      "lastUpdated": "2026-01-14"
+    },
+    {
+      "id": 10,
+      "name": "Secure Vault Sentinels",
+      "description": "Enterprise-grade secure storage and data protection solution",
+      "category": "Security",
+      "status": "active",
+      "lastUpdated": "2026-01-14"
+    },
+    {
+      "id": 11,
+      "name": "Small ChatGPT",
+      "description": "Lightweight AI chatbot for conversational intelligence and assistance",
+      "category": "AI/Chatbot",
+      "status": "active",
+      "lastUpdated": "2026-01-14"
+    }
+  ],
+  "metadata": {
+    "totalApps": 11,
+    "lastSyncedAt": "2026-01-14T08:56:44Z",
+    "owner": "Liladizilla"
+  }
+}
